@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Connect</title>
     <style>
-      body {
-        font-family: "Open Sans", Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #fff;
-      }
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
 
       header {
         background-color: #2980b9;
@@ -21,10 +23,11 @@
         justify-content: space-between;
         align-items: center;
       }
+      
+        header img {
+            width: 20%;
+        }
 
-      header img {
-        width: 20%;
-      }
 
       nav ul {
         list-style-type: none;
@@ -73,52 +76,67 @@
         align-items: center;
       }
 
-      footer #socialmedia {
-        display: flex;
-        flex-direction: column;
-      }
+        footer {
+            background-color: red;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        footer #socialmedia {
+            display: flex;
+            flex-direction: column;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <img src="imagens/logo-social-connect.png" alt="Logo Social Connect" />
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
+        <img src="imagens/logo.png" alt="Logo Social Connect" />
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-      <section>
-        <h2>Sobre nós</h2>
-        <p>
-          A Social Connect é uma empresa inovadora de carros focada no setor
-          automotivo que busca fabricar carros elétricos de alta performance.
-        </p>
-        <p>Nosso site oferece carros com a cara de cada cliente.</p>
-      </section>
-      <section>
-        <h2>Nossa Equipe</h2>
-        <p>A equipe da Social Connect é ...</p>
-        <img src="imagens/nosso-time.jpg" alt="Nossa Equipe" />
-      </section>
-      <section>
-        <h2>Contatos:</h2>
-        <p>(55) 11 05674-2390</p>
-        <p>SocialConnect@gmail.com.br</p>
-        <p>Horario de funcionamento: 08:00 às 18:00</p>
-      </section>
+        <section>
+            <!--Sobre nós concertado-->
+            <h2>Sobre nós</h2>
+            <p>A Social Connect é uma empresa inovadora que te conecta com as pessoas certas.</p>
+            <p>Nossa plataforma oferece usuários podem criar perfis, compartilhar atualizações, seguir outros usuários e
+                interagir por meio de mensagens privadas.</p>
+        </section>
+        <section>
+            <!--Nossa equipe faltando-->
+            <h2>Nossa Equipe</h2>
+            <p>A equipe da Social Connect é ...</p>
+            <img src="imagens/equipe.jpg" alt="Nossa Equipe">
+        </section>
+        <section>
+            <h2>Aqui deve conter uma seção de Contato</h2>
+            <p>xxxxxxxxxx</p>
+            <p>xxxxxxxxxx</p>
+            <p>xxxxxxxxxxx</p>
+        </section>
     </main>
     <footer>
-      <section>
-        <p>&copy; 2021 Soia Cnnt. Tds s dritos rsedos.</p>
-      </section>
-      <section id="socialmedia">
-        <span>xxxxx</span>
-        <span>xxxxxx</span>
-      </section>
+        <section>
+            <p>&copy; 2021 Soia Cnnt. Tds s dritos rsedos.</p>
+        </section>
+        <section id="socialmedia">
+            <span>xxxxx</span>
+            <span>xxxxxx</span>
+        </section>
     </footer>
-  </body>
+</body>
+
 </html>
